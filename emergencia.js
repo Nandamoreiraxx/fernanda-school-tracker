@@ -3,9 +3,9 @@ import { getDatabase, ref, onValue, update } from "https://www.gstatic.com/fireb
 import { getAuth, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js&quot;;
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCHxMR6NRrqiNSypsmxywtfu5x9H6ZlvOA",
-    authDomain: "school-tracker-2026.firebaseapp.com",
-    databaseURL: "https://school-tracker-2026-default-rtdb.firebaseio.com&quot;,
+    apiKey: "Minha API",
+    authDomain: "Meu dominio",
+    databaseURL: "Meu URL";,
     projectId: "school-tracker-2026"
 };
 
