@@ -6,7 +6,7 @@ const firebaseConfig = {
     apiKey: "Minha API",
     authDomain: "Meu dominio",
     databaseURL: "Meu URL";,
-    projectId: "school-tracker-2026"
+    projectId: "Meu ID"
 };
 
 const app = initializeApp(firebaseConfig);
