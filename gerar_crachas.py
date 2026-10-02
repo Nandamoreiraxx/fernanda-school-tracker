@@ -7,7 +7,7 @@ import os
 ARQUIVO_JSON = 'data/alunos.json'
 PASTA_SAIDA = 'crachas_impressao'
 
-if not os path.exists(PASTA_SAIDA):
+if not os.path.exists(PASTA_SAIDA):
  os.makedirs(PASTA_SAIDA)
 
 def gerar_crachas():
