@@ -12,9 +12,9 @@ if not os.path.exists(PASTA_SAIDA):
 
 def gerar_crachas():
   try:
-    with open (ARQUIVO_JSON, 'r', encoding= 'uttf-8') as f: 
+    with open (ARQUIVO_JSON, 'r', encoding= 'utf-8') as f: 
     alunos = json.load(f)
-    escept FileNoteFoundError:
+    except FileNotFoundError:
     print("Erro: Arquivo alunos.json não encontrado!")
     return
 
